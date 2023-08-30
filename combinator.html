@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <style>
+
+        div{
+            border: 5px solid red;
+        }
+        p{
+            border: 1px solid green;
+        }
+        section{
+            border: 5px solid blue;
+        }
+
+/* comment and uncomment each style given below one by one to see changes 
+Note: Only uncomment one style at a time for better understanding*/
+
+        /* div p {
+            background-color: yellow;
+        } */
+
+        /* div>p{
+            background-color: aquamarine;
+        } */
+
+        /* div+p {
+            background-color: aquamarine;
+        } */
+
+        /* div~p {
+            background-color: aquamarine;
+        } */
+
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <p>A combinator is something that explains the relationship between the selectors.
+        </p> 
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nobis laboriosam ipsam ab obcaecati qui
+            exercitationem, expedita </p>
+        <p>repudiandae neque eum eligendi maxime magnam fugit, commodi quisquam minima quos
+            iusto, id nulla vitae.</p>
+        <section>
+            <p>
+                This is desccedent, not child of div.
+            </p>
+        </section>
+    </div>
+
+    <p>The + selector is used to select an element that is directly after another specific element.</p>
+    <p>A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a
+        combinator. <br>
+        There are four different combinators in CSS: <br>
+        descendant selector (space) <br>
+        child selector (>) <br>
+        adjacent sibling selector (+) <br>
+        general sibling selector (~) <br>
+    </p>
+
+</body>
+
+</html>

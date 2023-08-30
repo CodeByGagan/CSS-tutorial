@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation 0</title>
+    <style>
+        div {
+            width: 75%;
+            height: 15vh;
+            background-color: blueviolet;
+            border: 2px solid white;
+            animation-name: gagan;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            position: relative;
+        }
+        @keyframes gagan{
+            from{
+                left: 0px;
+            }
+            to{
+                left: 100px;
+            }
+        }
+        .div1 {
+            animation-timing-function: linear;
+        }
+
+        .div2 {
+            animation-timing-function: ease;
+        }
+
+        .div3 {
+            animation-timing-function: ease-in;
+        }
+
+        .div4 {
+            animation-timing-function: ease-in-out;
+        }
+
+        .div5 {
+            animation-timing-function: ease-out;
+        }
+        p{
+            color: aliceblue;
+            text-align: center;
+            padding: 4% 2%;
+        }
+        nav>p{
+            background-color: rgb(212, 230, 247);
+            color: rgb(92, 4, 174);
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+   <nav>
+    <p>The animation-timing-function property specifies the speed curve of the animation. <br>
+
+        The animation-timing-function property can have the following values:
+    </p>
+   </n> 
+    <div class="div1"> <p><big>linear</big> - Specifies an animation with the same speed from start to end</p></div>
+    <div class="div2"> <p><big>ease</big> - Specifies an animation with a slow start, then fast, then end slowly (this is default)</p></div>
+    <div class="div3"><p><big>ease-in</big> - Specifies an animation with a slow start</p></div>
+    <div class="div4"> <p><big>ease-out</big> - Specifies an animation with a slow end</p></div>
+    <div class="div5"><p><big>ease-in-out</big> - Specifies an animation with a slow start and end</p></div>
+
+</body>
+
+</html>

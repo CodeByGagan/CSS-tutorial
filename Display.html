@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        li {
+            display: inline;
+        }
+        /* display none will not take any space */
+        .hidden{
+            display: none; 
+        }
+        /* display none will take some space */
+        .visibility{
+            visibility: hidden;
+        }
+        /* display: inline-block allows to set a width and height on element */
+        span.a {
+            display: inline;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            border: 1px solid blue;
+            background-color: yellow;
+        }
+
+
+        span.b {
+            display: block;
+            width: 100px;
+            height: 100px;
+            padding: 5px;
+            border: 1px solid blue;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Display a list of links as a horizontal menu:</p>
+
+    <ul>
+        <li><a href="#" target="_blank">HTML</a></li>
+        <li><a href="#" target="_blank">CSS</a></li>
+        <li><a href="#" target="_blank">JavaScript</a></li>
+    </ul>
+    <p class="hidden">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque ipsum fuga aut maxime impedit ut iure
+        est nobis nostrum, quo accusamus, qui temporibus ex exercitationem numquam tenetur! Doloribus, quo.
+    </p>
+    <p class="visibility">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas neque ipsum fuga aut maxime impedit ut iure
+        est nobis nostrum, quo accusamus, qui temporibus ex exercitationem numquam tenetur! Doloribus, quo.
+    </p>
+    <h1>The display Property</h1>
+
+    <h2><span class="a">display: inline</span> <span class="a">display: inline</span></h2>
+    <h2> <span class="b">display: block</span> <span class="b">display: block</span></h2>
+
+</body>
+
+</html>

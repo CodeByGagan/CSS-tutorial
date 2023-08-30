@@ -1,0 +1,13 @@
+body{
+    background: #ffffff url("../image/HawaMahal.jpg") no-repeat right top;
+}
+p{
+    /* background-color: aqua;
+    background-image:url(../image/bg5.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-size:auto;
+    background-attachment:scroll; */
+    color: rgb(8, 8, 8);
+}
